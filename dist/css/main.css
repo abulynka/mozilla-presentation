@@ -1,0 +1,48 @@
+.logo-100 {
+    width: 100px;
+}
+
+.logo-300 {
+    width: 300px;
+}
+
+.logo-550 {
+    width: 550px;
+}
+
+.logo-600 {
+    width: 600px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.row {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.dino {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("./../assets/Mozilla_dinosaur_head_logo.png");
+}
+
+strong {
+    color: #cc6e00;
+}
+
+
